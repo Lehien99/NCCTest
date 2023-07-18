@@ -1,0 +1,43 @@
+@import "normalize.css";
+
+:root {
+  --primary: #fe2c55;
+  --black: #000;
+  --text-color: #fff;
+
+  --font-family: Roboto;
+
+  --default-layout-header-height: 935px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  color: var(--black);
+}
+.wrapper {
+  display: flex;
+}
+.sideBar {
+  background-color:  #191718;
+  width: 150px;
+  height: 935px;
+  top: 938px;
+}
+.container {
+  background-color:var(--text-color);
+  width: 1768px;
+  height: 935px;
+}
